@@ -1,0 +1,27 @@
+.footer-custom {
+    background-color: #252523;
+}
+
+.footer-title {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: .06em;
+    font-size: 1.6rem;
+    margin-bottom: .5rem;
+    color: #ffffff;
+}
+
+.footer-text {
+    color: #b8b8b8;
+    font-size: .85rem;
+    max-width: 340px;
+}
+
+.footer-info {
+    color: #d8d8d8;
+    font-size: .85rem;
+    line-height: 1.9;
+}
+
+.footer-info strong {
+    color: #ffffff;
+}

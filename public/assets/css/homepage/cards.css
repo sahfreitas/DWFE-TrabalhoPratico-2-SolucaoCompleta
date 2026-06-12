@@ -1,0 +1,84 @@
+.card-img-top{
+    border-radius: 0 !important;
+}
+
+.card-img-top{
+    border-radius: 0 !important;
+    height: 260px;
+    object-fit: cover;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body .btn{
+    margin-top: auto;
+}
+.card{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.card-img-top{
+    height: 260px;
+    object-fit: cover;
+    transition: .4s;
+}
+
+.card::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 260px;
+    background-color: rgba(0,0,0,0);
+    transition: .4s;
+    z-index: 1;
+}
+
+.card .btn{
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    z-index: 2;
+    transition: .4s;
+}
+
+.card:hover::before{
+    background-color: rgba(0,0,0,0.50);
+}
+
+.card:hover .btn{
+    opacity: 1;
+}
+
+.badge {
+    margin-top: auto;
+}
+.btn-favoritar {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    transition: transform .2s;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .15);
+}
+ 
+.btn-favoritar:hover {
+    transform: scale(1.12);
+}

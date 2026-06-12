@@ -1,0 +1,294 @@
+.rotulo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    padding-top: 10px;
+    border-bottom: 1.5px solid #1a1a1a;
+    padding-bottom: 10px;
+}
+
+.rotulo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: .06em;
+}
+
+.filtro-btn {
+    background-color: transparent;
+    border: 1.5px solid #1a1a1a;
+    border-radius: 999px;
+    padding: 0.3rem 1rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.65rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #1a1a1a;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.filtro-btn:hover {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.form-cadastro {
+    background: #fff;
+    border: 1.5px solid #1a1a1a;
+    padding: 2rem;
+    margin-top: 1.5rem;
+}
+
+.form-cadastro label {
+    font-family: 'DM Sans', sans-serif;
+    font-size: .72rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #1a1a1a;
+    font-weight: 500;
+    margin-bottom: .35rem;
+    display: block;
+}
+
+.form-cadastro input,
+.form-cadastro select,
+.form-cadastro textarea {
+    width: 100%;
+    border: 1.5px solid #c8c4be;
+    border-radius: 0;
+    background: #f5f0ea;
+    font-family: 'DM Sans', sans-serif;
+    font-size: .9rem;
+    padding: .55rem .75rem;
+    color: #1a1a1a;
+    outline: none;
+    transition: border-color .2s;
+}
+
+.form-cadastro input:focus,
+.form-cadastro select:focus,
+.form-cadastro textarea:focus {
+    border-color: #1a1a1a;
+    background: #fff;
+}
+
+.form-cadastro textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.faixa-row {
+    display: grid;
+    grid-template-columns: 1fr 80px auto;
+    gap: .5rem;
+    align-items: center;
+    margin-bottom: .4rem;
+}
+
+.faixa-row input {
+    margin: 0;
+}
+
+.btn-rm-faixa {
+    background: none;
+    border: 1.5px solid #c8c4be;
+    color: #999;
+    width: 34px;
+    height: 38px;
+    cursor: pointer;
+    font-size: .9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .2s;
+    flex-shrink: 0;
+}
+
+.btn-rm-faixa:hover {
+    border-color: #1a1a1a;
+    color: #1a1a1a;
+}
+
+.btn-add-faixa {
+    background: none;
+    border: 1.5px dashed #c8c4be;
+    color: #888;
+    font-family: 'DM Sans', sans-serif;
+    font-size: .72rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    padding: .45rem 1rem;
+    cursor: pointer;
+    transition: .2s;
+    width: 100%;
+    margin-top: .25rem;
+}
+
+.btn-add-faixa:hover {
+    border-color: #1a1a1a;
+    color: #1a1a1a;
+}
+
+.btn-salvar {
+    background: #1a1a1a;
+    color: #f5f0ea;
+    border: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: .72rem;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    padding: .7rem 2rem;
+    cursor: pointer;
+    transition: background .2s;
+}
+
+.btn-salvar:hover {
+    background: #333;
+}
+
+.btn-cancelar {
+    background: none;
+    border: 1.5px solid #c8c4be;
+    color: #666;
+    font-family: 'DM Sans', sans-serif;
+    font-size: .72rem;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    padding: .7rem 1.5rem;
+    cursor: pointer;
+    transition: .2s;
+    margin-left: .75rem;
+}
+
+.btn-cancelar:hover {
+    border-color: #1a1a1a;
+    color: #1a1a1a;
+}
+
+.tabela-wrapper {
+    margin-top: 2.5rem;
+    overflow-x: auto;
+}
+
+.tabela-albuns {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'DM Sans', sans-serif;
+    font-size: .88rem;
+}
+
+.tabela-albuns thead th {
+    font-size: .68rem;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: #666;
+    border-bottom: 1.5px solid #1a1a1a;
+    padding: .6rem .75rem;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.tabela-albuns tbody tr {
+    border-bottom: 1px solid #e5e0da;
+    transition: background .15s;
+}
+
+.tabela-albuns tbody tr:hover {
+    background: #fff;
+}
+
+.tabela-albuns td {
+    padding: .75rem;
+    color: #1a1a1a;
+    vertical-align: middle;
+}
+
+.tabela-albuns td img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+}
+
+.td-nome {
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 500;
+}
+
+.badge-genero {
+    background: #1a1a1a;
+    color: #f5f0ea;
+    font-size: .65rem;
+    letter-spacing: .08em;
+    padding: 2px 8px;
+    white-space: nowrap;
+}
+
+.btn-edit,
+.btn-del {
+    background: none;
+    border: 1.5px solid #c8c4be;
+    padding: .3rem .6rem;
+    font-size: .8rem;
+    cursor: pointer;
+    transition: .2s;
+    color: #666;
+}
+
+.btn-edit:hover {
+    border-color: #1a1a1a;
+    color: #1a1a1a;
+}
+
+.btn-del:hover {
+    border-color: #c0392b;
+    color: #c0392b;
+}
+
+.acoes-cell {
+    white-space: nowrap;
+    display: flex;
+    gap: .4rem;
+}
+
+.vazio-msg {
+    text-align: center;
+    color: #999;
+    font-family: 'DM Sans', sans-serif;
+    font-size: .9rem;
+    padding: 2rem 0;
+}
+
+.img-preview {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border: 1.5px solid #c8c4be;
+    display: none;
+    margin-top: .5rem;
+}
+
+.toast-tracklist {
+    position: fixed;
+    bottom: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #1a1a1a;
+    color: #f5f0ea;
+    padding: .75rem 1.5rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: .85rem;
+    z-index: 9999;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.toast-tracklist.show {
+    opacity: 1;
+}

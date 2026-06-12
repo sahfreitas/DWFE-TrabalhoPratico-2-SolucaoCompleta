@@ -1,0 +1,20 @@
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.carousel-indicators button {
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 50%;
+    background-color: black !important;
+    opacity: 0.5;
+    margin: 0 4px;
+    border: none;
+    transition: 0.3s;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    transform: scale(1.1);
+}

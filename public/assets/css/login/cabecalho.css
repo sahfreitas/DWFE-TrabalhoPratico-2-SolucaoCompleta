@@ -1,0 +1,17 @@
+header {
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    background-color: #ffffff;
+    border-bottom: 1.5px solid #1a1a1a;
+}
+
+.logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    letter-spacing: .06em;
+    color: #1a1a1a;
+    text-decoration: none;
+}

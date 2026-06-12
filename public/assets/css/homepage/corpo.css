@@ -1,0 +1,106 @@
+body{
+    background-color: #f5f0ea; 
+    font-family: 'DM Sans', sans-serif;
+}
+
+.rotulo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: .06em;
+    
+    width: 100%;
+    padding-top: 10px;
+    border-bottom: 1.5px solid #1a1a1a;
+ 
+
+}
+
+.titulo-destaque{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .90rem;
+    letter-spacing: .15em;
+    color: #666;
+    font-weight: 400;
+    padding: 1rem;
+}
+
+.rotulo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    padding-top: 10px;
+    border-bottom: 1.5px solid #1a1a1a;
+    padding-bottom: 10px;
+}
+
+.rotulo-wrapper .rotulo {
+    border-bottom: none;
+    padding-top: 0;
+}
+
+.filtros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.filtro-btn {
+    background-color: transparent;
+    border: 1.5px solid #1a1a1a;
+    border-radius: 999px;
+    padding: 0.3rem 1rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.65rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #1a1a1a;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.filtro-btn:hover {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.filtro-btn.active {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.sem-resultados {
+    font-family: 'DM Sans', sans-serif;
+    color: #666;
+    padding: 2rem 0;
+    font-size: 0.9rem;
+}
+
+.busca-input {
+    background: transparent;
+    border: none;
+    border-bottom: 1.5px solid #1a1a1a;
+    border-radius: 0;
+    padding: 0.3rem 0.5rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+    color: #1a1a1a;
+    outline: none;
+    width: 220px;
+    transition: border-color 0.2s;
+}
+
+.busca-input::placeholder {
+    color: #aaa;
+    text-transform: uppercase;
+    font-size: 0.65rem;
+    letter-spacing: 0.12em;
+}
+
+.busca-input:focus {
+    border-bottom-color: #555;
+}

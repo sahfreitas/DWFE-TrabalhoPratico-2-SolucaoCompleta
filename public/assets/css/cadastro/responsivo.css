@@ -1,0 +1,9 @@
+@media (max-width: 480px) {
+    .login-card {
+        padding: 2rem 1.25rem 1.75rem;
+    }
+
+    .footer-text {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,134 @@
+main {
+    flex: 1;
+    min-height: calc(100vh - 3.5rem - 160px);
+}
+
+.login-card {
+    background: #ffffff;
+    border: 1.5px solid #1a1a1a;
+    padding: 2.5rem 2.5rem 2rem;
+    width: 100%;
+    max-width: 420px;
+}
+
+.titulo-destaque {
+    font-size: .68rem;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    color: #888;
+    margin-bottom: .5rem;
+}
+
+.rotulo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.4rem;
+    letter-spacing: .06em;
+    color: #1a1a1a;
+    line-height: 1;
+}
+
+.login-divider {
+    border: none;
+    border-top: 1.5px solid #1a1a1a;
+    margin: 1rem 0 1.5rem;
+    opacity: 1;
+}
+
+.login-label {
+    display: block;
+    text-transform: uppercase;
+    font-size: .68rem;
+    letter-spacing: .12em;
+    color: #666;
+    font-weight: 400;
+    margin-bottom: .4rem;
+}
+
+.login-input {
+    border: 1.5px solid #d0c9c0 !important;
+    background-color: #faf7f3 !important;
+    font-family: 'DM Sans', sans-serif;
+    font-size: .9rem;
+    color: #1a1a1a;
+    transition: border-color .2s, background .2s;
+}
+
+.login-input:focus {
+    border-color: #1a1a1a !important;
+    background-color: #ffffff !important;
+    box-shadow: none !important;
+}
+
+.login-input::placeholder {
+    color: #bbb;
+}
+
+.login-forgot {
+    font-size: .72rem;
+    letter-spacing: .10em;
+    text-transform: uppercase;
+    color: #666;
+    text-decoration: none;
+    font-weight: 400;
+    transition: color .2s;
+}
+
+.login-forgot:hover {
+    color: #1a1a1a;
+}
+
+.login-btn {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border: 1.5px solid #1a1a1a !important;
+    font-family: 'DM Sans', sans-serif;
+    font-size: .75rem;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: .7rem;
+    transition: background-color .2s, color .2s;
+}
+
+.login-btn:hover {
+    background-color: transparent;
+    color: #1a1a1a;
+}
+
+.login-btn:focus,
+.login-btn:active,
+.login-btn:focus-visible {
+    border: 1.5px solid #1a1a1a !important;
+    box-shadow: none !important;
+    outline: none;
+}
+
+.login-sep-line {
+    border-top: 1px solid #d0c9c0;
+    opacity: 1;
+}
+
+.login-sep-text {
+    font-size: .68rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #aaa;
+}
+
+.login-register {
+    font-size: .78rem;
+    color: #666;
+}
+
+.login-register a {
+    color: #1a1a1a;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1px solid #1a1a1a;
+    transition: color .2s, border-color .2s;
+}
+
+.login-register a:hover {
+    color: #555;
+    border-color: #555;
+}

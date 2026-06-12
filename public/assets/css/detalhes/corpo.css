@@ -1,0 +1,23 @@
+body{
+    background-color: #f5f0ea; 
+    font-family: 'DM Sans', sans-serif;
+}
+
+.rotulo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: .06em;
+    width: 100%;
+    padding-top: 10px;
+    border-bottom: 1.5px solid #1a1a1a;
+}
+
+.titulo-destaque{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .90rem;
+    letter-spacing: .15em;
+    color: #666;
+    font-weight: 400;
+    padding: 1rem;
+}

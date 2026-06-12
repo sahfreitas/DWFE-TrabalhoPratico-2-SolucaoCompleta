@@ -1,0 +1,24 @@
+footer{
+    background-color: #252523;
+}
+
+.footer-title{
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: .06em;
+    font-size: 2rem;
+}
+
+.footer-text{
+    font-family: 'DM Sans', sans-serif;
+    color: #b8b8b8;
+    max-width: 600px;
+}
+
+.footer-info{
+    font-family: 'DM Sans', sans-serif;
+    color: #d8d8d8;
+}
+
+.footer-info strong{
+    color: #fff;
+}
